@@ -9,7 +9,14 @@ The implementation is written in HTML/JavaScript and uses GeoGebra for rendering
 An [installed version](http://prover-test.geogebra.org/~kovzol/groebner-solitaire/groebner-solitaire.html) can be tried out.
 A [video](https://www.youtube.com/watch?v=Xbpr2Fp_NvY) describes how a typical game flow looks like.
 
-This project is a work-in-progress. Currently only two game levels are included. The level can be selected by
-appending `?level=0` or `?level=1` to the URL.
+This project is a work-in-progress. Currently only four game levels are included. The level can be selected by
+appending `?level=0` or `?level=1`, and so on, to the URL.
+
+Three languages are supported in the gameplay: English, German and Hungarian. Language selection is possible by
+appending e.g. `&lang=German` after the level selection. (See more on this at the description of
+[query string](https://en.wikipedia.org/wiki/Query_string) and
+[HTTP GET request](https://www.w3schools.com/tags/ref_httpmethods.asp).)
 
 Author: Zoltán Kovács <zoltan@geogebra.org>
+
+German translation: Benedek Kovács <kovben2004@gmail.com>
